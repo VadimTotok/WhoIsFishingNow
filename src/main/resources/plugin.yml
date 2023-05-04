@@ -1,0 +1,4 @@
+name: WhoIsFishingNow
+version: '${project.version}'
+main: spigot.whoisfishingnow.WhoIsFishingNow
+api-version: 1.19
