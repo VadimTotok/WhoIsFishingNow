@@ -14,8 +14,10 @@ public class PlayerFish implements Listener {
             int y = event.getHook().getLocation().getBlockX();
             int z = event.getHook().getLocation().getBlockX();
 
-            event.getPlayer().getServer().getConsoleSender().sendMessage(ChatColor.GREEN + "[WhoIsFishingNow] " +
-                    ChatColor.RED + "X:" + x +"," + "Y:" + y + "," + "Z:" + z);
+            event.getPlayer().getServer().getConsoleSender().sendMessage(
+                    ChatColor.GREEN + "[WhoIsFishingNow] " +
+                            ChatColor.RED + "X:" + x +"," + "Y:" + y + "," + "Z:" + z
+            );
         }
     }
 }
